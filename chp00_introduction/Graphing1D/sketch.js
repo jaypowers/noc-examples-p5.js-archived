@@ -5,7 +5,7 @@
 let startX = 0;
 
 function setup() {
-  createCanvas(800, 600);
+  createCanvas(windowWidth, windowHeight);
   stroke(255);
   noFill();
 }
