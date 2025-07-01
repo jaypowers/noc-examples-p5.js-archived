@@ -1,6 +1,10 @@
+## Brief Note: POSSIBLE PHOTOSENSITIVITY WARNING.
+Some things may be blinky.
+
 # My Version Notes
 
-Hi! This is my version, not the original version. Please see below if you're interested in "Dan the man's" version, thanks peoples!
+
+Hi! This is my version, not the original version. Please see below if you're interested in "Dan the Man's" version, thanks peoples!
 
 # The Nature of Code Examples p5.js
 
