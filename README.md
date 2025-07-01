@@ -1,3 +1,7 @@
+# My Version Notes
+
+Hi! This is my version, not the original version. Please see below if you're interested in "Dan the man's" version, thanks peoples!
+
 # The Nature of Code Examples p5.js
 
 This repo is now archived. The updated and current examples for the [The Nature of Code book](https://natureofcode.com/) can be found listed on the [examples page](https://natureofcode.com/examples) on the website.
