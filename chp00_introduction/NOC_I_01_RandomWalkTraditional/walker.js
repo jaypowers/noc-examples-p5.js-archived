@@ -2,10 +2,12 @@ class Walker {
   constructor() {
     this.x = width / 2;
     this.y = height / 2;
+    strokeWeight(2);
+    this.col = 0;
   }
 
   render() {
-    stroke(0);
+    stroke(this.col, 100, 100);
     point(this.x, this.y);
   }
 
@@ -22,5 +24,6 @@ class Walker {
     }
     this.x = constrain(this.x, 0, width - 1);
     this.y = constrain(this.y, 0, height - 1);
+    this.col ++; // Increment color value for noise
   }
 }
