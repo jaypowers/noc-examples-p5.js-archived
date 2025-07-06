@@ -17,5 +17,16 @@ function draw() {
 }
 
 function update() {
-
+  if (keyIsDown(LEFT_ARROW)) {
+    translate(-5, 0);
+  }
+  if (keyIsDown(RIGHT_ARROW)) {
+    translate(5, 0);
+  }
+  if (keyIsDown(UP_ARROW)) {
+    translate(0, -5);
+  }
+  if (keyIsDown(DOWN_ARROW)) {
+    translate(0, 5);
+  }
 }
