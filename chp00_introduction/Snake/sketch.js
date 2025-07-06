@@ -1,6 +1,12 @@
+let x, y;
+let speed = 5;
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
   rectMode(CENTER);
+  x = 0;
+  y = 0;
+
 }
 
 function draw() {
@@ -18,15 +24,19 @@ function draw() {
 
 function update() {
   if (keyIsDown(LEFT_ARROW)) {
-    translate(-5, 0);
+    x += speed;
+    translate(-x, 0);
   }
   if (keyIsDown(RIGHT_ARROW)) {
-    translate(5, 0);
+    x += -speed;
+    translate(x, 0);
   }
   if (keyIsDown(UP_ARROW)) {
-    translate(0, -5);
+    y += speed;
+    translate(0, -y);
   }
   if (keyIsDown(DOWN_ARROW)) {
-    translate(0, 5);
+    y += -speed;
+    translate(0, y);
   }
 }
